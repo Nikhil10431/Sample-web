@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .nav{
+    
+        width: 100%;
+        height: 40px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        
+    }
+
+    .div1{
+        background-color: rgb(27, 22, 29);
+
+      
+    }
+    .products{
+        height: 200px;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px
+    }
+    .pro-1{
+        width: 300px;
+        height: 400px;
+        background-color: rgb(225, 249, 172);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bg-image{
+        height: 500px;
+        width: 100%;
+
+      
+    }
+    .image{
+        height: 250px;
+    }
+</style>
+    
+<body>
+  
+    <div class="div1">
+        <navigation class="nav">
+            <a href="index.html">Home</a>
+            <a href="About.html">About</a>
+            <a href="contact.html">Contact</a>
+        </navigation>
+    </div>
+    <div class="image">
+        <img class="bg-image" src="bgimage.avif">
+    </div>
+    <div class="products">
+        <div class="pro-1">
+            <img style="width: 200px; height: 150px;"src="laptop.avif" alt="Laptop Image" >
+            <h1>HP Pavilion</h1>
+            <p>This is a high-performance laptop perfect for gaming and productivity.</p>
+            <p>Price: 45000</p>
+            <span>4.5/5 Rating</span>
+            <button>Add to Cart</button>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
